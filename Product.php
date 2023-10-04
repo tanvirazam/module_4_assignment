@@ -5,6 +5,7 @@ class Product{
     private $name;
     private $price;
 
+   
     public function __construct($id, $name, $price){
         $this->id = $id;
         $this->name = $name;
