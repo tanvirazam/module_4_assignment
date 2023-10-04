@@ -12,7 +12,7 @@ class Product{
         $this->price = $price;
     }
     public function getFormattedPrice() {
-        return '$' . number_format($this->price, 2);
+        return number_format($this->price, 2);
     }
     public function showDetails() {
         echo "Product Details:" . PHP_EOL;
